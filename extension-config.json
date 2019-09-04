@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate-project/ext-change-icons",
+  "components": [
+    {
+      "id": "TabBarHome",
+      "path": "frontend/portals/TabBar/TabBarHome/index.jsx",
+      "target": "tab-bar.home-icon",
+      "type": "portals"
+    },
+    {
+      "id": "TabBarBrowse",
+      "path": "frontend/portals/TabBar/TabBarBrowse/index.jsx",
+      "target": "tab-bar.browse-icon",
+      "type": "portals"
+    },
+    {
+      "id": "TabBarCart",
+      "path": "frontend/portals/TabBar/TabBarCart/index.jsx",
+      "target": "tab-bar.cart-icon",
+      "type": "portals"
+    },
+    {
+      "id": "TabBarFavorites",
+      "path": "frontend/portals/TabBar/TabBarFavorites/index.jsx",
+      "target": "tab-bar.favorites-icon",
+      "type": "portals"
+    },
+    {
+      "id": "TabBarMore",
+      "path": "frontend/portals/TabBar/TabBarMore/index.jsx",
+      "target": "tab-bar.more-icon",
+      "type": "portals"
+    },
+    {
+      "id": "NavMenuHome",
+      "path": "frontend/portals/NavMenu/NavMenuHome/index.jsx",
+      "target": "nav-menu.home",
+      "type": "portals"
+    },
+    {
+      "id": "NavMenuCategories",
+      "path": "frontend/portals/NavMenu/NavMenuCategories/index.jsx",
+      "target": "nav-menu.categories",
+      "type": "portals"
+    },
+    {
+      "id": "NavMenuFavorites",
+      "path": "frontend/portals/NavMenu/NavMenuFavorites/index.jsx",
+      "target": "nav-menu.favorites",
+      "type": "portals"
+    },
+    {
+      "id": "NavMenuCart",
+      "path": "frontend/portals/NavMenu/NavMenuCart/index.jsx",
+      "target": "nav-menu.cart",
+      "type": "portals"
+    }
+  ],
+  "configuration": {
+    "HomeSvg": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "",
+      "params": {
+        "label": "SVG of the Home Icon.",
+        "type": "text"
+      }
+    },
+    "BrowseSvg": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "",
+      "params": {
+        "label": "SVG of the Browse Icon.",
+        "type": "text"
+      }
+    },
+    "CartSvg": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "",
+      "params": {
+        "label": "SVG of the Cart Icon.",
+        "type": "text"
+      }
+    },
+    "FavoritesSvg": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "",
+      "params": {
+        "label": "SVG of the Favorites Icon.",
+        "type": "text"
+      }
+    },
+    "MoreSvg": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "",
+      "params": {
+        "label": "SVG of the More Icon.",
+        "type": "text"
+      }
+    },
+    "CategoriesSvg": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "",
+      "params": {
+        "label": "SVG of the Categories Icon.",
+        "type": "text"
+      }
+    }
+  }
+}
