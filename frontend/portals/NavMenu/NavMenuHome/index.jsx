@@ -12,9 +12,10 @@ const LABEL = 'navigation.home';
 
 /**
  * The HomeButton component.
+ * @param {Object} props Component props
  * @param {Function} props.navigate The navigate action.
- * @param {Object} props.children The children object.
- * @returns {JSX}
+ * @param {Node} props.children The children object.
+ * @returns {JSX|Node}
  */
 const HomeButton = ({ navigate, children }) => {
   if (!HomeSvg) {
