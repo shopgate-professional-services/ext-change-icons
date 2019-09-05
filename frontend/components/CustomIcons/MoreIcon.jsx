@@ -4,7 +4,7 @@ import getConfig from '../../helpers/getConfig';
 const { MoreSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The more icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

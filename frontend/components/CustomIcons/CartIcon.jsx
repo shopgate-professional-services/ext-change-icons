@@ -4,7 +4,7 @@ import getConfig from '../../helpers/getConfig';
 const { CartSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The cart icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

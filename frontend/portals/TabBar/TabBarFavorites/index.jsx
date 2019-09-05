@@ -7,7 +7,7 @@ import styles from '../style';
 const { FavoritesSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The TabBarFavorites icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

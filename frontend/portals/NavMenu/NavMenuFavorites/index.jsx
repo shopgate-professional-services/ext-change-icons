@@ -12,7 +12,9 @@ const { FavoritesSvg } = getConfig();
 const LABEL = 'navigation.favorites';
 
 /**
+ * The FavoritesButton component.
  * @param {Function} props.navigate The navigate action.
+ * @param {Object} props.children The children object.
  * @returns {JSX}
  */
 const FavoritesButton = ({ navigate, children }) => {

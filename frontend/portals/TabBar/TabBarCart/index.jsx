@@ -7,7 +7,7 @@ import styles from '../style';
 const { CartSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The TabBarCart icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

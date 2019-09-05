@@ -12,7 +12,9 @@ const { CartSvg } = getConfig();
 const LABEL = 'navigation.cart';
 
 /**
+ * The CartButton component.
  * @param {Function} props.navigate The navigate action.
+ * @param {Object} props.children The children object.
  * @returns {JSX}
  */
 const CartButton = ({ navigate, children }) => {

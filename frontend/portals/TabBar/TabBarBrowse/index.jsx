@@ -7,7 +7,7 @@ import styles from '../style';
 const { BrowseSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The TabBarBrowse icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

@@ -11,7 +11,9 @@ const { CategoriesSvg } = getConfig();
 const LABEL = 'navigation.categories';
 
 /**
+ * The CategoryButton component.
  * @param {Function} props.navigate The navigate action.
+ * @param {Object} props.children The children object.
  * @returns {JSX}
  */
 const CategoryButton = ({ navigate, children }) => {

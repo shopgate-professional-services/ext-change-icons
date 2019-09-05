@@ -11,7 +11,9 @@ const { HomeSvg } = getConfig();
 const LABEL = 'navigation.home';
 
 /**
+ * The HomeButton component.
  * @param {Function} props.navigate The navigate action.
+ * @param {Object} props.children The children object.
  * @returns {JSX}
  */
 const HomeButton = ({ navigate, children }) => {

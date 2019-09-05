@@ -4,7 +4,7 @@ import getConfig from '../../helpers/getConfig';
 const { CategoriesSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The categories icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

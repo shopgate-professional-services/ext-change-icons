@@ -7,7 +7,7 @@ import styles from '../style';
 const { HomeSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The TabBarHome icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

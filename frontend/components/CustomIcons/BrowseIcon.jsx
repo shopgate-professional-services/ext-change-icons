@@ -4,7 +4,7 @@ import getConfig from '../../helpers/getConfig';
 const { BrowseSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The browse icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */

@@ -4,7 +4,7 @@ import getConfig from '../../helpers/getConfig';
 const { FavoritesSvg } = getConfig();
 
 /**
- * The home icon component.
+ * The favorites icon component.
  * @param {Object} props The icon component properties.
  * @returns {JSX}
  */
